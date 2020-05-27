@@ -54,7 +54,7 @@ ROOT_URLCONF = 'ProyectoVideocurso.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['D:/!!Web/!!Proyecto django/proyecto django VideoCurso/proyecto-x/ProyectoVideocurso/ProyectoVideocurso/plantillas'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

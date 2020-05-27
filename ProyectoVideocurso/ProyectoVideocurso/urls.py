@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from ProyectoVideocurso.views import cursoC, curso_css
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('cursoC/', cursoC),
+    path('cursocss/', curso_css),
 ]
