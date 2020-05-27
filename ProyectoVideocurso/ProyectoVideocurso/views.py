@@ -1,10 +1,6 @@
 from django.shortcuts import render
 import datetime
 
-def dame_fecha(request):
-
-    fecha_actual = datetime.datetime.now()
-
 def cursoC (request):
 
     fecha_actual = datetime.datetime.now()
